@@ -1,0 +1,135 @@
+  
+        *{
+            box-sizing:border-box;
+        }
+        body{
+        background-color: white;
+        
+        
+        }
+        h1{
+        text-align: center;
+        }
+        h2{
+               
+               border:1px solid black; 
+               width:35%;
+               position:relative;
+               top:0%;
+               left:65%;
+               margin:0%;
+               
+               text-align: center;
+            }
+        p{
+            margin:0%;
+            padding:10px;
+            word-wrap:break-word;
+            overflow:hidden;
+        }
+        @media(min-width:992px){
+            .box{
+            width:30%;
+            height:auto;
+            overflow:visible;
+            border:1px solid black;
+            
+            float:left;
+            
+            
+            }
+            #p1{
+            background-color:grey;
+            margin-right:2.5%;
+            margin-left:2.5%;
+            margin-top:0%
+            }
+            #p2{
+                background-color:grey;
+                margin-right: 2.5%;
+                margin-top:0%;
+            }
+            #p3{
+                background-color:grey;
+                margin-right: 2.5%;
+                margin-top:0%;
+            }
+           
+         
+        }
+        @media(min-width:768px) and (max-width:991px){
+            .box{
+            width:45%;
+            height:auto;
+            overflow:visible;
+            border:1px solid black;
+            
+            float:left;
+            
+            
+        
+            }
+            
+            #p1{
+            background-color: grey;
+            margin-right:3.33%;
+            margin-left:3.33%;
+            margin-bottom:3.33%;
+            
+            
+            }
+            #p2{
+                background-color:grey;
+                margin-right:3.33% ;
+                
+                
+            }
+            #p3{
+                background-color:grey;
+                margin-left:3.33%;
+                
+                width:93.33%;
+            }
+            
+        }
+         
+        @media(max-width:767px){
+            .box{
+            width:90%;
+            height:auto;
+            overflow:visible;
+            border:1px solid black;
+            
+            float:left;
+            margin:0% 5% 5% 5%;
+            
+            word-wrap:break-word;
+        
+            }
+           
+            
+            #p1{
+            background-color:grey;
+            }
+            #p2{
+                background-color:grey;
+            }
+            #p3{
+                background-color:grey;
+            }
+            
+        }
+        #p1>h2{
+            background-color: rosybrown;
+            color:black;
+        }
+        #p2>h2{
+            background-color:red;
+            color: white;
+        }
+        #p3>h2{
+            background-color: lightyellow;
+            color:black;
+        }
+      
+    
